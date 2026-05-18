@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =============================================
+       META & SEO TAGS
+  ============================================= -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Frontend Developer & WordPress Developer Resume – 1 year of professional experience building responsive websites, WordPress templates, and business web solutions." />
+  <meta name="keywords" content="Frontend Developer, WordPress Developer, Web Developer, HTML, CSS, JavaScript, React JS, Resume 2026" />
+  <meta name="author" content="Your Name" />
+  <meta property="og:title" content="Frontend Developer | WordPress Developer Resume" />
+  <meta property="og:description" content="Professional resume of a passionate web developer with 1 year of experience." />
+  <meta property="og:type" content="website" />
+  <title>Resume – Frontend &amp; WordPress Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       TOP NAV BAR
+  ============================================= -->
+  <nav class="topnav" id="topnav" aria-label="Resume navigation">
+    <div class="topnav__inner">
+      <span class="topnav__logo">Web Developer<span class="accent">.</span></span>
+      <ul class="topnav__links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certificate</a></li>
+      </ul>
+      <div class="topnav__actions">
+        <button class="btn-theme" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <button class="btn-download" id="downloadBtn" onclick="downloadResume()">
+          <i class="fa-solid fa-download"></i> Download PDF
+        </button>
+      </div>
+      <!-- Mobile hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" role="navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certificate</a>
+    </div>
+  </nav>
+
+  <!-- =============================================
+       MAIN CONTENT
+  ============================================= -->
+  <main class="resume-main" id="resumeContent">
+
+    <!-- ── HERO / HEADER ──────────────────────── -->
+    <header class="hero" id="about">
+      <div class="hero__bg-shape" aria-hidden="true"></div>
+      <div class="hero__content">
+        <!-- <div class="hero__avatar" aria-hidden="true">
+          <span>YN</span>
+        </div> -->
+        <div class="hero__text">
+          <p class="hero__eyebrow"><i class="fa-solid fa-circle-check"></i> Open to Work</p>
+          <h1 class="hero__name">Harshad Anant Mahadik</h1>
+          <p class="hero__role">
+            <span class="role-badge"><i class="fa-solid fa-code"></i> Frontend Developer</span>
+            <span class="role-sep">·</span>
+            <span class="role-badge"><i class="fa-brands fa-wordpress"></i> WordPress Developer</span>
+          </p>
+          <p class="hero__summary">
+            Passionate web developer with <strong>1 year of professional experience</strong> building responsive websites,
+            WordPress templates, and business websites for industries like plumbing, HVAC, AC services, and loan businesses.
+            Experienced in frontend development, WordPress customization, hosting management, domain handling, cPanel
+            operations, and modern web technologies.
+          </p>
+          <div class="hero__contacts">
+            <a href="mailto:harshadmahadik8521@gmail.com" class="contact-chip">
+              <i class="fa-solid fa-envelope"></i> harshadmahadik8521@gmail.com
+            </a>
+            <a href="tel:+919021562839" class="contact-chip">
+              <i class="fa-solid fa-phone"></i> +91 9021562839
+            </a>
+            <a href="https://my-portfolio-one-sigma-97.vercel.app/" target="_blank" rel="noopener" class="contact-chip">
+              <i class="fa-solid fa-globe"></i> Portfolio
+            </a>
+            <a href="https://github.com/HarshadMahadik" target="_blank" rel="noopener" class="contact-chip">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/harshad-mahadik-7a21ik" target="_blank" rel="noopener" class="contact-chip">
+              <i class="fa-brands fa-linkedin"></i> harshad-mahadik-7a21ik
+            </a>
+            <span class="contact-chip no-link">
+              <i class="fa-solid fa-location-dot"></i> Nalasopara , Maharashtra, India
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="resume-body">
+
+      <!-- ── EXPERIENCE ─────────────────────────── -->
+      <section class="section" id="experience">
+        <div class="section__header">
+          <span class="section__icon"><i class="fa-solid fa-briefcase"></i></span>
+          <h2 class="section__title">Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card card">
+              <div class="card__top">
+                <div>
+                  <h3 class="card__title">Web Developer / WordPress Developer</h3>
+                  <p class="card__sub"><i class="fa-solid fa-building"></i> Web Development Agency &nbsp;|&nbsp; <i class="fa-solid fa-location-dot"></i> Nalasopara, India</p>
+                </div>
+                <span class="badge badge--green">
+                  <i class="fa-regular fa-calendar"></i> 2025 – Present · 1 yr
+                </span>
+              </div>
+              <ul class="card__list">
+                <li><i class="fa-solid fa-check-circle"></i> Built responsive website templates daily using HTML, CSS, and JavaScript</li>
+                <li><i class="fa-solid fa-check-circle"></i> Created fast and optimized landing pages for local service businesses</li>
+                <li><i class="fa-solid fa-check-circle"></i> Developed and customized WordPress websites with custom themes &amp; plugins</li>
+                <li><i class="fa-solid fa-check-circle"></i> Managed hosting, domains, DNS records, and cPanel operations</li>
+                <li><i class="fa-solid fa-check-circle"></i> Delivered web solutions for plumbing, HVAC, AC service, and loan businesses</li>
+                <li><i class="fa-solid fa-check-circle"></i> Used React JS for modern frontend website development</li>
+                <li><i class="fa-solid fa-check-circle"></i> Maintained and updated live client websites regularly</li>
+                <li><i class="fa-solid fa-check-circle"></i> Handled end-to-end technical website setup and deployment</li>
+                <li><i class="fa-solid fa-check-circle"></i> Delivered production-ready templates within tight deadlines</li>
+              </ul>
+              <div class="card__tags">
+                <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span>
+                <span class="tag">React JS</span><span class="tag">WordPress</span><span class="tag">cPanel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── SKILLS ─────────────────────────────── -->
+      <section class="section" id="skills">
+        <div class="section__header">
+          <span class="section__icon"><i class="fa-solid fa-layer-group"></i></span>
+          <h2 class="section__title">Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Frontend -->
+          <div class="skill-group card">
+            <h3 class="skill-group__title"><i class="fa-solid fa-palette"></i> Frontend</h3>
+            <div class="skill-item">
+              <span class="skill-item__label"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar__fill" data-width="95"></div>
+              </div>
+              <span class="skill-item__pct">95%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-item__label"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar__fill" data-width="90"></div>
+              </div>
+              <span class="skill-item__pct">90%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-item__label"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar__fill" data-width="80"></div>
+              </div>
+              <span class="skill-item__pct">80%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-item__label"><i class="fa-brands fa-react"></i> React JS</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar__fill" data-width="50"></div>
+              </div>
+              <span class="skill-item__pct">50%</span>
+            </div>
+          </div>
+
+          <!-- Backend & DB -->
+          <div class="skill-group card">
+            <h3 class="skill-group__title"><i class="fa-solid fa-database"></i> Backend &amp; Database</h3>
+            <div class="skill-item">
+              <span class="skill-item__label"><i class="fa-brands fa-java"></i> Core Java</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar__fill" data-width="65"></div>
+              </div>
+              <span class="skill-item__pct">65%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-item__label"><i class="fa-solid fa-c"></i> C Programming</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar__fill" data-width="60"></div>
+              </div>
+              <span class="skill-item__pct">60%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-item__label"><i class="fa-solid fa-table"></i> MySQL</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar__fill" data-width="65"></div>
+              </div>
+              <span class="skill-item__pct">65%</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-item__label"><i class="fa-solid fa-fire"></i> Firebase</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-bar__fill" data-width="60"></div>
+              </div>
+              <span class="skill-item__pct">60%</span>
+            </div>
+          </div>
+
+          <!-- CMS & Tools -->
+          <div class="skill-group card skill-group--tools">
+            <h3 class="skill-group__title"><i class="fa-solid fa-screwdriver-wrench"></i> CMS &amp; Tools</h3>
+            <div class="tools-badges">
+              <span class="tool-badge"><i class="fa-brands fa-wordpress"></i> WordPress</span>
+              <span class="tool-badge"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="tool-badge"><i class="fa-solid fa-server"></i> cPanel</span>
+              <span class="tool-badge"><i class="fa-solid fa-network-wired"></i> Domain &amp; Hosting</span>
+              <span class="tool-badge"><i class="fa-brands fa-google"></i> Google My Business</span>
+              <span class="tool-badge"><i class="fa-solid fa-globe"></i> DNS Management</span>
+              <span class="tool-badge"><i class="fa-solid fa-rocket"></i> Deployment</span>
+              <span class="tool-badge"><i class="fa-solid fa-mobile-screen"></i> Responsive Design</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ── PROJECTS ───────────────────────────── -->
+      <section class="section" id="projects">
+        <div class="section__header">
+          <span class="section__icon">
+            <i class="fa-solid fa-diagram-project"></i>
+          </span>
+          <h2 class="section__title">Projects</h2>
+        </div>
+      
+        <div class="projects-grid">
+      
+          <!-- MangaVerse -->
+          <div class="project-card card">
+            <div class="project-card__icon" aria-hidden="true">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+      
+            <h3 class="project-card__title">MangaVerse – Manga Website</h3>
+      
+            <p class="project-card__desc">
+              A fully responsive manga and comic reading website built with HTML, CSS, and JavaScript featuring hero sliders, manga detail pages, category browsing, and search functionality.
+            </p>
+      
+            <div class="card__tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </div>
+      
+          <!-- News Website -->
+          <div class="project-card card">
+            <div class="project-card__icon" aria-hidden="true">
+              <i class="fa-solid fa-newspaper"></i>
+            </div>
+      
+            <h3 class="project-card__title">News Portal Website</h3>
+      
+            <p class="project-card__desc">
+              Modern news portal website with category-based sections, featured articles, responsive news cards, sticky navigation, and article detail pages.
+            </p>
+      
+            <div class="card__tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS Grid</span>
+              <span class="tag">Flexbox</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+      
+          <!-- Business Templates -->
+          <div class="project-card card">
+            <div class="project-card__icon" aria-hidden="true">
+              <i class="fa-solid fa-store"></i>
+            </div>
+      
+            <h3 class="project-card__title">Business Website Templates</h3>
+      
+            <p class="project-card__desc">
+              Production-ready websites for plumbing, HVAC, AC service, and loan businesses with SEO optimization, responsive layouts, and deployment setup.
+            </p>
+      
+            <div class="card__tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">SEO</span>
+              <span class="tag">cPanel</span>
+            </div>
+          </div>
+      
+          <!-- WordPress -->
+          <div class="project-card card">
+            <div class="project-card__icon" aria-hidden="true">
+              <i class="fa-brands fa-wordpress"></i>
+            </div>
+      
+            <h3 class="project-card__title">WordPress Service Websites</h3>
+      
+            <p class="project-card__desc">
+              Custom WordPress websites with theme customization, plugin integration, SEO setup, domain configuration, and performance optimization.
+            </p>
+      
+            <div class="card__tags">
+              <span class="tag">WordPress</span>
+              <span class="tag">PHP</span>
+              <span class="tag">Elementor</span>
+              <span class="tag">SEO</span>
+            </div>
+          </div>
+      
+          <!-- React Projects -->
+          <!-- <div class="project-card card">
+            <div class="project-card__icon" aria-hidden="true">
+              <i class="fa-brands fa-react"></i>
+            </div>
+      
+            <h3 class="project-card__title">React JS Projects</h3>
+      
+            <p class="project-card__desc">
+              Modern React JS single-page applications using reusable components, React Hooks, responsive UI design, and Vercel deployment.
+            </p>
+      
+            <div class="card__tags">
+              <span class="tag">React JS</span>
+              <span class="tag">Hooks</span>
+              <span class="tag">JSX</span>
+              <span class="tag">Vercel</span>
+            </div>
+          </div> -->
+      
+        </div>
+      
+        <div class="portfolio-cta">
+          <a href="https://harshadmahadik-portfolio.netlify.app/"
+             target="_blank"
+             rel="noopener"
+             class="btn-portfolio">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            View Full Portfolio
+          </a>
+        </div>
+      </section>
+
+      <!-- ── EDUCATION ──────────────────────────── -->
+      <section class="section" id="education">
+        <div class="section__header">
+          <span class="section__icon"><i class="fa-solid fa-graduation-cap"></i></span>
+          <h2 class="section__title">Education</h2>
+        </div>
+
+        <div class="edu-grid">
+
+          <div class="edu-card card">
+            <div class="edu-card__year">2021 – 2024</div>
+            <div class="edu-card__body">
+              <span class="edu-card__degree"><i class="fa-solid fa-laptop-code"></i> B.Sc. Computer Science (B.Sc.-CS)</span>
+              <span class="edu-card__school">University of Mumbai</span>
+              <div class="edu-card__scores">
+                <span class="score-chip score-chip--blue">CGPA - 7.23</span>
+                <span class="score-chip score-chip--blue">~68.69%</span>
+              </div>
+              <p class="edu-card__note">Core subjects: Data Structures, DBMS, Web Technology, OOP, Computer Networks</p>
+            </div>
+          </div>
+
+          <div class="edu-card card">
+            <div class="edu-card__year">2018 – 2020</div>
+            <div class="edu-card__body">
+              <span class="edu-card__degree"><i class="fa-solid fa-flask"></i> HSC – Science (12th)</span>
+              <span class="edu-card__school">Annasaheb Vartak College, Vasai</span>
+              <div class="edu-card__scores">
+                <span class="score-chip score-chip--amber">61.40%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card card">
+            <div class="edu-card__year">2017 – 2018</div>
+            <div class="edu-card__body">
+              <span class="edu-card__degree"><i class="fa-solid fa-school"></i> SSC (10th)</span>
+              <span class="edu-card__school">Holy Cross High School</span>
+              <div class="edu-card__scores">
+                <span class="score-chip score-chip--green">88.40%</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ── CERTIFICATIONS ─────────────────────── -->
+      <section class="section" id="certifications">
+        <div class="section__header">
+          <span class="section__icon"><i class="fa-solid fa-certificate"></i></span>
+          <h2 class="section__title">Certifications</h2>
+        </div>
+
+        <div class="cert-grid">
+
+          <div class="cert-card card">
+            <div class="cert-card__icon" aria-hidden="true"><i class="fa-solid fa-award"></i></div>
+            <div class="cert-card__body">
+              <h3 class="cert-card__title">Certificate in Web Development (IT028)</h3>
+              <p class="cert-card__issuer"><i class="fa-solid fa-building-columns"></i> Government Certified · IT Department</p>
+              <a href="https://drive.google.com/file/d/16yI5AXFL79IVEQkVS0uN-XfAvaLAkeon/view" target="_blank" rel="noopener" class="cert-card__link">
+                <i class="fa-solid fa-external-link"></i> View Certificate
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card card">
+            <div class="cert-card__icon" aria-hidden="true"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <div class="cert-card__body">
+              <h3 class="cert-card__title">Web Development Workshop</h3>
+              <p class="cert-card__issuer"><i class="fa-solid fa-calendar-check"></i> Hands-on Workshop · Web Technologies</p>
+              <a href="https://drive.google.com/file/d/1GwAP1w6YzyNTocAXhOf7T3Ud5nM5jO_6/view" target="_blank" rel="noopener" class="cert-card__link">
+                <i class="fa-solid fa-external-link"></i> View Certificate
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div><!-- /.resume-body -->
+  </main>
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer class="resume-footer" role="contentinfo">
+    <p>
+      <i class="fa-solid fa-code"></i> Crafted by <strong>Harshad Mahadik</strong> ·
+      <a href="https://harshadmahadik-portfolio.netlify.app/" target="_blank" rel="noopener">View Portfolio</a>
+    </p>
+    <!-- <p class="footer-note">References available upon request</p> -->
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
